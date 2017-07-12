@@ -1,22 +1,5 @@
 # **Traffic Sign Recognition** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Build a Traffic Sign Recognition Project**
-
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
-
-
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.jpg "Visualization"
@@ -71,6 +54,7 @@ Here are the results of the prediction:
 The code for making predictions on my final model is located in the end of the Ipython notebook.
 
 For the first image, the model is sure about the result. The top five soft max probabilities were:
+
 | Probability      |     Prediction	        			 		                    | 
 |:----------------:|:------------------------------------------------:| 
 | 1.00         	   | Speed limit (50km/h)   						                    | 
