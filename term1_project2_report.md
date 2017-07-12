@@ -35,7 +35,8 @@ Here are six German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8] ![alt text][image9]
 
-The fourth image might be bit difficult to classify because it is quite rotated but the other ones shouldn't be a problem. The accuracy of the prediction for the new images was 66.67 %. As I was guessing before-hand, the rotated image wasn't easy to predict and the network had actually confused it to another triangle-shaped traffic sign with a construction guy. That is quite understandable error since they have obvious similarity with human figures. What was surprising, was that the image number 3 was misclassified as "Wild animals crossing" and I cannot find any similarity between these to signs, even the shape of the signs differ. But then overall the second most probable class for the image 3 was the correct one.
+The fourth image might be bit difficult to classify because it is quite rotated but the other ones shouldn't be a problem. The accuracy of the prediction for the new images was 66.67 %. As I was guessing before-hand, the rotated image wasn't easy to predict and the network had actually confused it to another triangle-shaped traffic sign with a construction guy. That is quite understandable error since they have obvious similarity with human figures. What was surprising, was that the image number 3 was misclassified as "Wild animals crossing" and I cannot find any similarity between these to signs, even the shape of the signs differ. But then overall the second most probable class for the image 3 was the correct one. According to the softmax results, the classifier is very certain even about the false classifications. 
+
 
 Here are the results of the prediction:
 
@@ -48,10 +49,6 @@ Here are the results of the prediction:
 | Go straight or left			                | Go straight or left										         |
 | Right-of-way at the next intersection | Right-of-way at the next intersection | 
 
-
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
-The code for making predictions on my final model is located in the end of the Ipython notebook.
 
 For the first image, the model is sure about the result. The top five soft max probabilities were:
 
