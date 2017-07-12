@@ -14,10 +14,12 @@
 
 # Rubric Points
 
-Here is link to my project code: https://github.com/Pedrous/Term1-CarND-Traffic-Sign-Project/blob/master/Traffic_Sign_Classifier.ipynb
-
 ## Files submitted
 The additional photos, project report and the project code is provided as .ipynb and .html files.
+
+Here is link to my project code: https://github.com/Pedrous/Term1-CarND-Traffic-Sign-Project/blob/master/Traffic_Sign_Classifier.ipynb
+
+All the other files are locatedhere: https://github.com/Pedrous/Term1-CarND-Traffic-Sign-Project
 
 ## Dataset exploration
 A summary of the dataset is provided as suggested in the beginning of the .ipynb model and also a few traffic signs from the dataset are visualized. These are both shown in the .ipynb file.
