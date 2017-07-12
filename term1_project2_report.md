@@ -22,14 +22,15 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./1.jpg "Traffic Sign 1"
+[image5]: ./2.jpg "Traffic Sign 2"
+[image6]: ./3.jpg "Traffic Sign 3"
+[image7]: ./4.jpg "Traffic Sign 4"
+[image8]: ./5.jpg "Traffic Sign 5"
+[image9]: ./6.jpg "Traffic Sign 6"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+ 
 
 ---
 ###Writeup / README
