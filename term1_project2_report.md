@@ -29,23 +29,23 @@ The goals / steps of this project are the following:
 [image8]: ./5.jpg "Traffic Sign 5"
 [image9]: ./6.jpg "Traffic Sign 6"
 
-## Rubric Points
+# Rubric Points
 
 Here is link to my project code: https://github.com/Pedrous/Term1-CarND-Traffic-Sign-Project/blob/master/Traffic_Sign_Classifier.ipynb
 
-# Files submitted
+## Files submitted
 The additional photos, project report and the project code is provided as .ipynb and .html files.
 
-# Dataset exploration
+## Dataset exploration
 A summary of the dataset is provided as suggested in the beginning of the .ipynb model and also a few traffic signs from the dataset are visualized. These are both shown in the .ipynb file.
 
-# Design and Test a Model Architecture
+## Design and Test a Model Architecture
 * I preprocessed the data by changing it to grayscale and then normalizing the data between 0.1 and 0.9. I also tried to reduce the mean from the data but it seemed liked that there was no huge difference so I didn't apply that ultimately.
 * The starting point of my model was the LeNet classifier but I increased the amount of filters in the first layer to 16 and in the second layer to 40 so that the input of the first fully connected layer was 1000. Then I added one fully-connected layer there, which takes in 1000 inputs puts out 400. The change of the layers was done because it seemed to improve the result a little bit. I believed that LeNet would be good in traffic signs as it worked for the handwritten numbers as well.
 * For the training I used the same batch size of 128 than in LeNet but increased th epochs to 40 so that my netwrok converges. I tried changing the learning rate, but there was no huge difference so I gave that up. The opitimizer was the same AdamOptimizer that it was in the LeNet.
 * The training accuracy with these improves was 1 and the validation accuracy was almost 0.95 so I was satisfied with the result. Test set accuracy was also more than 0.93 so that was pretty good. The training accuracy of 1 and the validation and test set accuracy maybe suggests that the model is a bit overfitted so that could still be addressed to improve the classifier.
 
-# Test a Model on New Images
+## Test a Model on New Images
 
 Here are six German traffic signs that I found on the web:
 
